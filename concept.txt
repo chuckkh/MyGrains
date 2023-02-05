@@ -1,0 +1,20 @@
+	randomness
+	speed
+	density
+	duration
+	transpose
+	envelope
+	envelope
+	LFO / multicontrol
+	sound input
+	
+	https://imaus10.github.io/GrainStorm/
+
+	
+But how do I keep track of the indexes?
+	Perhaps every index is a sum: of a starting point and an offset.
+
+	class Grain
+	int speedRatio
+	int startingPoint
+
